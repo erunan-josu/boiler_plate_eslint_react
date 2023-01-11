@@ -4,7 +4,7 @@ module.exports = {
     es2021: true,
     node: true
   },
-  extends: ['plugin:react/recommended', 'standard'],
+  extends: ['plugin:react/recommended', 'standard', 'plugin:storybook/recommended'],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
@@ -14,4 +14,4 @@ module.exports = {
   rules: {
     'react/react-jsx-in-scope': 'none'
   }
-}
+};
