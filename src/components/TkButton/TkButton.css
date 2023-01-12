@@ -1,0 +1,30 @@
+.tk-btn {
+    /* padding: 4px; */
+}
+
+.tk-primary-btn {
+    background: blue;
+    color: #fff;
+}
+
+.tk-secondary-btn {
+    background: lightblue;
+    color: darkblue;
+}
+
+.tk-outlined-btn {
+    background:  transparent;
+    border: 1px solid blue;
+}
+
+.tk-lg-btn {
+    height: 32px;
+}
+
+.tk-md-btn {
+    height: 24px;
+}
+
+.tk-sm-btn {
+    height: 18px;
+}
